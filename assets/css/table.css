@@ -1,0 +1,25 @@
+/** responsible for table */
+#myTable thead tr.filters th {
+    padding: 6px;
+    background-color: black;
+    color: white;
+}
+
+#myTable thead tr.filters input {
+    width: 100%;
+    padding: 6px 8px;
+    font-size: 13px;
+    border: 1px solid #100101ff;
+    border-radius: 4px;
+}
+
+.dt-buttons {
+    margin-bottom: 15px;
+}
+
+.dt-button {
+    padding: 6px 12px;
+    border-radius: 4px;
+    font-size: 13px;
+}
+
