@@ -3,13 +3,12 @@
  * Plugin Name:       RP Data Table
  * Description:       Responsive Data Tables is a WordPress plugin that helps you manage and display inventor-related information in responsive, searchable, and feature-rich data tables across your website.
  * Text Domain:       rp-data-table
- * Version:           1.0.0
+ * Version:           1.0.1
  * Author:            sundew team
  * Author URI:        https://sundewsolutions.com/
  * 
  * 
  * @package RP_Data_Table
- * @since 1.0.0
  * 
  */
 
@@ -26,10 +25,9 @@ define('RP_DATA_TABLE_FILE', __FILE__);
 // Core Includes.
 require_once RP_DATA_TABLE_PATH . 'includes/class-rp-data-table.php';
 require_once RP_DATA_TABLE_PATH . 'includes/class-rp-table-render.php';
-require_once RP_DATA_TABLE_PATH . 'includes/class-rp-table-admin.php';
-
+require_once RP_DATA_TABLE_PATH . 'includes/class-rp-data-table-plugin-meta.php';
 
 // Initialize
 new RP_Data_Table();
 new RP_Table_Render();
-new RP_Table_Admin();
+new RP_Data_Table_Plugin_Meta();
